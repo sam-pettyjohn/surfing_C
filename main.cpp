@@ -5,22 +5,24 @@ using namespace std;
 
 // "main" function -- int = integer
 int main() {
+    
+    // swap value a with value b
+    int a = 1;
+    int b = 2;
+    // solution
+    int temp = a;
+    a = b;
+    b = temp;
+    cout << a;
+
+    // int file_size = 100;
+    // double sales = 9.99;
+    // cout << file_size << " & " << sales;
+
+
     // cout = character out. allows to output one or more characters on the screen.
-    cout << "Hello, World!";
+    // cout << "Hello, World!";
+
     // return 0 tells the OS that our program can terminate correctly. if any other number is presented, then there is an error.
     return 0; 
-};
-
-
-int fullName() {
-    string first_name, last_name;
-    cout<<"Enter your first name: "; 
-    cin>>first_name;
-
-    cout<<"Enter your last name: "; 
-    cin>>last_name;
-
-    cout<<"Your full name is: "<<first_name<<" "<<last_name<<" ";
-
-    return 0;
 };
